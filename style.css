@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0;
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.box {
+    color: #04fff7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 3px #000000;
+}
+#quote {
+    border-bottom: 2px solid #00ccff;
+}
+
+
+.button {
+    background-image: linear-gradient(to bottom, #55E07E, #15D8B3);
+    color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-position: center;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-image: linear-gradient(to bottom, #15D8B3, #55E07E);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
